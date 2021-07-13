@@ -1,0 +1,42 @@
+/*-------------
+ Common Section
+------------- */
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+}
+
+/*------------- 
+ Header Area
+-------------- */
+header{
+    background-color: #2D25A0;
+}
+.header-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.header-title{
+    font-size: 64px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.header-title h1{
+    margin-top: 0;
+}
+.button-style{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    border: 0;
+}
+.header-image img{
+    width: 556px;
+    height: 438px;
+}
