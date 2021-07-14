@@ -47,7 +47,7 @@ header{
     width: 180px;
     height: 55px;
     background-image: linear-gradient(orange,tomato);
-    transition: 0.5s ease-in-out;
+    transition: 0.7s ease-in-out;
 }
 .header-image img{
     width: 556px;
