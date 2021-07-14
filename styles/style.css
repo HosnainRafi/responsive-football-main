@@ -39,10 +39,24 @@ header{
     color: white;
     border: 0;
     margin-top: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button-style:hover{
+    font-size:20px;
+    width: 180px;
+    height: 55px;
+    background-image: linear-gradient(orange,tomato);
+    transition: 0.5s ease-in-out;
 }
 .header-image img{
     width: 556px;
     height: 438px;
+}
+
+.header-image:hover img{
+    transform: rotate(15deg);
+    transition:transform 1s ease-in-out;
 }
 
 /*---------- 
@@ -53,7 +67,6 @@ Main Area
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 30px 0; */
 }
 .player-info{
     text-align: justify; 
@@ -116,4 +129,73 @@ article{
 .article-logo>img:hover{
     transform: scale(1.2);
     transition: transform .7s ease-in-out; 
+ }
+
+ /*------------- 
+ Quote Area 
+ --------------*/
+.quote-area{
+    background-color: rgba(255, 167, 94, 0.116);
+    padding: 200px;
+}
+ .quote-title h1{
+     font-size: 30px;
+     justify-content: center;
+     display: flex;
+     margin-bottom: 50px;
+     color: tomato;
+ }
+ .quote-area{
+     margin: 120px auto;
+ }
+ .quote{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .quote-image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+ }
+ .quote-info{
+     width: 400px;
+     padding-left: 20px;
+ }
+ .quote-info p{
+     margin-left: 65%;
+     color: rgb(206, 127, 38);
+ }
+
+ /*--------------
+  Footer Area
+ --------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    /* margin-top: 200px; */
+ }
+ .footer-logo img{
+    width: 484px;
+    height: 110px;
+ }
+ .footer-icons{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+ .footer-icon{
+     color: #969BAB;
+     margin: 15px;
+     font-size: 22px;
+ }
+ .copyright{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 18px;
  }
