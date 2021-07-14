@@ -189,9 +189,11 @@ footer{
      text-align: center;
  }
  .footer-icon{
-     color: #969BAB;
      margin: 15px;
      font-size: 22px;
+ }
+ .footer-icon a{
+    color: #969BAB;
  }
  .copyright{
      display: flex;
